@@ -1,0 +1,10 @@
+Index(['avg_beneficio_pps', 'scoreingreso', 'tipotrabajador', 'dem_edad',
+       'last_prima_tot_miscli', 'avg_prima_tot_miscli', 'PRIMA_PROM_GRUPOS',
+       'PRIMA_PROM_RIESGOS', 'ratio_inc_prima_tot_miscli', 'dem_lima_agrup',
+       'dem_cono_agrup', 'dem_nse_rimac', 'rcc_cal_gral', 'rcc_num_vehic_sbs',
+       'rcc_linea_tcmax', 'rcc_linea_tcmax_var6', 'veh_marca', 'veh_modelo',
+       'veh_valor_act', 'antiguedad_veh', 'num_grupos', 'num_riesgos',
+       'VEH_firstgrupos', 'EPS_grupos', 'SOA_grupos', 'VEH_var',
+       'RIESGOS_GENERALES_riesgos', 'months_ant_miscli2', 'num_meses_miscli',
+       'cuc', 'placa'],
+      dtype='object')

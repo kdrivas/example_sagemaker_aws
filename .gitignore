@@ -1,0 +1,10 @@
+*.csv
+__pycache__/
+.ipynb_checkpoints
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/

@@ -1,0 +1,20 @@
+Exception during training: Unknown boosting type gdbt\nTraceback (most recent call last):
+  File "/opt/ml/code/train.py", line 41, in start
+    model.fit(X_train, y_train)
+  File "/usr/local/lib/python3.7/site-packages/lightgbm/sklearn.py", line 895, in fit
+    callbacks=callbacks, init_model=init_model)
+  File "/usr/local/lib/python3.7/site-packages/lightgbm/sklearn.py", line 688, in fit
+    callbacks=callbacks, init_model=init_model)
+  File "/usr/local/lib/python3.7/site-packages/lightgbm/engine.py", line 228, in train
+    booster = Booster(params=params, train_set=train_set)
+  File "/usr/local/lib/python3.7/site-packages/lightgbm/basic.py", line 2229, in __init__
+    train_set.construct()
+  File "/usr/local/lib/python3.7/site-packages/lightgbm/basic.py", line 1472, in construct
+    categorical_feature=self.categorical_feature, params=self.params)
+  File "/usr/local/lib/python3.7/site-packages/lightgbm/basic.py", line 1270, in _lazy_init
+    self.__init_from_np2d(data, params_str, ref_dataset)
+  File "/usr/local/lib/python3.7/site-packages/lightgbm/basic.py", line 1320, in __init_from_np2d
+    ctypes.byref(self.handle)))
+  File "/usr/local/lib/python3.7/site-packages/lightgbm/basic.py", line 110, in _safe_call
+    raise LightGBMError(_LIB.LGBM_GetLastError().decode('utf-8'))
+lightgbm.basic.LightGBMError: Unknown boosting type gdbt

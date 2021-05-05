@@ -1,0 +1,4 @@
+artifact_location: s3://rimac-analytics-temporal/individuals/Dante/cross-sell-veh/mlruns
+experiment_id: '1'
+lifecycle_stage: active
+name: exp_3
